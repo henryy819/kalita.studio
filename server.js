@@ -91,7 +91,7 @@ app.get("/", (req, res) => {
           <input id="price-input" type="number" placeholder="Enter amount (USD)" class="px-4 py-3 border border-slate-300 rounded-xl w-48" />
           <button id="cta-pay-hero" class="px-5 py-3 rounded-2xl bg-slate-900 hover:bg-slate-800 text-white font-semibold soft">Pay Now</button>
         </div>
-        <p class="mt-3 text-xs text-slate-500">Test mode ready. Use Stripe test card 4242 4242 4242 4242.</p>
+        <p class="mt-3 text-xs text-slate-500">
       </div>
       <div class="relative">
         <div class="relative glass rounded-3xl p-6">
